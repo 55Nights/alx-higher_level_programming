@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-x = range(0, 100)
+x = range(00, 100)
 for i in x:
-    if i < 10 and i != 99:
-        print("0{:d}" .format(i), end=', ')
-    elif i != 99:
-        print("{:d}" .format(i), end=', ')
+    if i == 99:
+        print("{0:02}" .format(i))
     else:
-        print("{:d}" .format(i))
+        print("{0:02}" .format(i), end=', ')
