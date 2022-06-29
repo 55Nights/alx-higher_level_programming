@@ -6,4 +6,4 @@ for i in reversed(x):
         i = i
     else:
         i = i - 32
-    print(chr(i), end='')
+    print("{}" .format(chr(i)), end='')
