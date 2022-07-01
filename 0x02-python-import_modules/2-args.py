@@ -9,8 +9,5 @@ if __name__ == "__main__":
         print("{} argument:" .format(x))
     else:
         print("{} arguments:" .format(x))
-        y = sys.argv
-        z = 1
-        while z <= x:
-            print("{}: {}" .format(z, y[z]))
-            z += 1
+    for z in range(1, x + 1):
+        print("{}: {}" .format(z, sys.argv[z]))
