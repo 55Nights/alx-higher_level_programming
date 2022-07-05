@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
 def no_c(my_string):
-    myL = []
+    s = ""
     for i in my_string:
-        myL.append(i)
+        if i == "c" or i == "C":
+            pass
+        else:
+            s = s + i
+    return s
