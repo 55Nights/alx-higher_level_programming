@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
-class Square:
-    """ defines a class square """
+class Square(object):
+    """ 
+    defines a class square
+    Args: has no arguments still
+    """
     pass
