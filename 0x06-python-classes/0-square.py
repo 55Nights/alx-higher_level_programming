@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-
+""" Defines a class square"""
 class Square(object):
-    """ 
-    defines a class square
-    Args: has no arguments still
-    """
+    """empty class square"""
     pass
