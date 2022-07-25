@@ -4,8 +4,8 @@ def safe_print_list_integers(my_list=[], x=0):
         n = 0
         y = 0
         while n < x:
-            if isinstance(my_list[n], int) == True:
-                print("{:d}".format(my_list[n]),end='')
+            if isinstance(my_list[n], int) is True:
+                print("{:d}".format(my_list[n]), end='')
                 y = y + 1
             else:
                 pass
@@ -15,4 +15,3 @@ def safe_print_list_integers(my_list=[], x=0):
         print("list index out of range")
     else:
         return y
-
